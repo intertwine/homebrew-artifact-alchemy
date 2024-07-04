@@ -13,3 +13,10 @@ brew install aalc
 ## Homepage
 
 <https://github.com/intertwine/artifact-alchemy>
+
+## Publishing
+
+```sh
+curl -L -O https://github.com/intertwine/artifact-alchemy/raw/main/releases/download/v0.1.0/aalc-macos.zip
+shasum -a 256 aalc-macos.zip
+```

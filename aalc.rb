@@ -1,8 +1,8 @@
 class Aalc < Formula
   desc "ArtifactAlchemy command-line tool to manage Claude Artifacts"
   homepage "https://github.com/intertwine/artifact-alchemy"
-  url "https://github.com/intertwine/artifact-alchemy/raw/main/releases/download/v0.1.0/aalc-macos-universal.zip"
-  sha256 "64df6361a6033fff5bfccd8407177cd2ba36d4d1a34e360696d1b6d1076c0f76"
+  url "https://github.com/intertwine/artifact-alchemy/raw/main/releases/download/v0.1.0/aalc-macos.zip"
+  sha256 "8ac8f597fdab966ecf54d8d178ccffde15d97c943068e15e1fc8ce1919c59776"
 
   def install
     bin.install "aalc"
